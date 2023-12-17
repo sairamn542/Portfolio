@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Port folio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b1453024da.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./images/Sai.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header_text">
+                <p>Front-end Developer</p>
+                <!--?xml version="1.0" standalone="no"?-->
+                <!-- <svg id="sw-js-blob-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="sw-gradient" x1="0" x2="1" y1="1" y2="0">
+                            <stop id="stop1" stop-color="rgba(248, 117, 55, 1)" offset="0%"></stop>
+                            <stop id="stop2" stop-color="rgba(251, 168, 31, 1)" offset="100%"></stop>
+                        </linearGradient>
+                    </defs>
+                    <path fill="url(#sw-gradient)"
+                        d="M30.5,-24.7C38,-14.9,41.7,-2.3,39.1,9C36.6,20.2,27.9,30.1,16.9,35.6C5.8,41.2,-7.6,42.4,-17.8,37.3C-28,32.3,-35,20.9,-37.3,9C-39.6,-2.9,-37.4,-15.5,-30.4,-25.2C-23.4,-35,-11.7,-42,-0.1,-41.9C11.5,-41.8,23,-34.6,30.5,-24.7Z"
+                        width="100%" height="100%" transform="translate(50 50)" stroke-width="0"
+                        style="transition: all 0.3s ease 0s;"></path>
+                </svg> -->
+                <h1>Hi, I'm <span>Sairam Nayak</span><br />FRONTEND DEVELOPER</h1>
+            </div>
+        </div>
+    </div>
+    <!------------------------------------------ About ----------------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/Sairam.png">
+                </div>
+                <div class="about-col-2">
+                    <h2 class="sub-title">About me</h2>
+                    <p>Front-end Developer with proven ability to design and develop JavaScript based application for
+                        web and mobile environments. Strong knowledge of React JS, Redux, JavaScript, Html, css,
+                        Bootstrap .</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-links" onClick="openTab('skills')">Skills</p>
+                        <!-- <p class="tab-links" onClick="openTab('experience')">Experience</p> -->
+                        <p class="tab-links" onClick="openTab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <!-- <li><span>UI/UX</span><br>Designing Web/App Interfaces</li> -->
+                            <li><span>Web development</span><br>Web app development</li>
+                            <li><span>React Developer</span><br>Designing Web/App Interfaces</li>
+                        </ul>
+                    </div>
+                    <!-- <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2019-2021</span><br>Team lead at StarApp LLC. </li>
+                            <li><span>2017-2019</span><br>UI/UX Design Executive at Coin</li> Digital Ltd.</li>
+                            <li><span>2016-2017</span><br>Internship at ekart eCommerce.</li>
+                        </ul>
+                    </div> -->
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020</span><br>BCA from Brahmapur University, Brahmapur.</li>
+                            <li><span>2017</span><br>CHSE from People's college, Buguda</li>
+                            <li><span>2015</span><br>BSE from Sardar Antaryami Bidyapeetha, B.karadabadi.</11>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------------------    Services     ------------------------------>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h1>Web development</h1>
+                    <p>As a passionate and detail-oriented web developer, I bring a wealth of experience in crafting dynamic and visually appealing websites. With a strong foundation in both front-end and back-end technologies, I am adept at turning concepts into code and creating seamless, user-friendly digital experiences.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h1>React JS Developer</h1>
+                    <p>Passionate about creating robust and scalable web applications, I am a skilled React.js developer with a proven track record in delivering high-quality, interactive user interfaces. Leveraging my expertise in front-end development, I am dedicated to building seamless and efficient user experiences that meet and exceed client expectations.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <!-- <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h1>App design</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, asperiores voluptate odio,
+                        eius officia vitae, sunt necessitatibus eaque in architecto animi dignissimos quae. Corporis
+                        veritatis adipisci nam eligendi harum at.</p>
+                    <a href="#">Learn More</a>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <!-------------       Portfolio        ------------------>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./images/Airbnb.png">
+                    <div class="layer">
+                        <h3>Airbnb Clone</h3>
+                        <p>It makes help to you for find the hotels nearby your destination</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/Restaurant.png" alt="">
+                    <div class="layer">
+                        <h3>Restaurant webpage</h3>
+                        <p>It makes help to you for find the hotels nearby your destination</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/Todo.png" alt="">
+                    <div class="layer">
+                        <h3>Todo App</h3>
+                        <p>It makes help to you for find the hotels nearby your destination</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!------------------------- Contact Details ------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1>Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>sairamn542@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 8658965977</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/sairam.nayak.142"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/aap_ka_sai/"><i class="fa-brands fa-instagram"></i></a>
+                        <a
+                            href="https://www.linkedin.com/in/sairam-nayak-818324192?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="" download="" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; Sairam. Made in 2023 with <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName('tab-links');
+        var tabcontents = document.getElementsByClassName('tab-contents');
+
+        function openTab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove('active-links')
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove('active-tab')
+            }
+            event.currentTarget.classList.add('active-links')
+            document.getElementById(tabname).classList.add('active-tab')
+        }
+    </script>
+    <script>
+        var sidemnu = document.getElementById('sidemenu');
+
+        function openmenu() {
+            console.log('opening menu')
+            sidemnu.style.right = '0';
+        }
+
+        function closemenu() {
+            sidemnu.style.right = '-200px';
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbySa8U9yXkp2UCf3GB-UTt5qAUBwJY0bEP_RlcQUtdBtWCDeVXzhBoVwlseXMtKylRZ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const message = document.getElementById('msg');
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    message.innerHTML = 'Message sent successfully';
+                    setTimeout(function () {
+                        message.innerHTML = ''
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+
+</body>
+
+</html>
